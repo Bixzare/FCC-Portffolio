@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a id="nav-left" href="#"> My Portfolio</a>
+
+      <div id="nav-right">
+        <a href="#welcome-section">About</a>
+        <a href="#projects">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <!-- should contain at least one link that you can click on to navigate to different sections of the page -->
+      <!-- should always be at the top of the viewport -->
+    </nav>
+
+    <section id="welcome-section">
+      <!-- height of the welcome section should be equal to the height of the viewport -->
+      <h1>Hi I am Djibrilla</h1>
+      <p>Web Developer | AI Enigneer</p>
+    </section>
+
+    <section id="projects" id="work">
+      <!-- Your projects section should contain at least one link to a project -->
+      <h2>My Projects</h2>
+
+      <div id="projects-container">
+        <a class = "project-tile" href = "https://bixzare.github.io/Very-Simple-Html-Form/">
+          <h3 class="project-title">
+            <div class="on-hover left">&lt</div>
+            Form
+            <div class="on-hover right">/&gt</div>
+          </h3>
+
+          <div id="project-div">
+            <img
+              src="https://i.imgur.com/QmjMYaX.png"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+        </a>
+
+        <a  class = "project-tile" href = "https://bixzare.github.io/Simple-Tribute-Page-for-FCC/">
+          <h3 class="project-title">
+            <div class="on-hover left">&lt</div>
+            Tribute
+            <div class="on-hover">/&gt</div>
+          </h3>
+          <div id="project-div">
+            <img
+              src="https://i.imgur.com/h1cXhWx.png"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+        </a>
+
+        <a  class = "project-tile" href = "https://bixzare.github.io/FCC-Technical-Documentation/">
+          <h3 class="project-title">
+            <div class="on-hover left">&lt</div>
+            Documentation
+            <div class="on-hover right">/&gt</div>
+          </h3>
+          <div id="project-div">
+            <img
+              src="https://i.imgur.com/3vnak6j.png"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+        </a>
+
+        <a  class = "project-tile" href = "https://bixzare.github.io/FCC-product-landing-page/">
+          <h3 class="project-title">
+            <div class="on-hover left">&lt</div>
+            Product Langing Page
+            <div class="on-hover right">/&gt</div>
+          </h3>
+          <div id="project-div">
+            <img
+              src="https://i.imgur.com/EVg2AP3.png"
+              referrerpolicy="no-referrer"
+            />
+          </div>
+        </a>
+
+        <!-- projects -->
+      </div>
+    </section>
+
+    <!--  id of profile-link that opens to your github -->
+    <!-- at least one media query  -->
+    <section id="contact">
+      <h1>Feel free to contact me</h1>
+      <div class="social-container">
+        <a
+          href="https://www.linkedin.com/in/djibrilla-boubacar-a7145a231/"
+          class="social-link fa fa-linkedin"
+          target="_blank"
+          ><p>LinkedIn</p>
+        </a>
+        <a
+          href="https://github.com/Bixzare"
+          class="social-link fa fa-github"
+          target="_blank"
+          id="profile-link"
+          ><p>Github</p>
+        </a>
+        <a
+          href="djibrilla.boubacar.502@email.com"
+          class="social-link fa fa-envelope"
+          ><p>E-mail</p>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <h3>
+          **This is a portfoilo for Free Code Camp Real one latter on on Gitub
+        </h3>
+        <h3>@Bixzare</h3>
+      </div>
+    </footer>
+  </body>
+</html>
